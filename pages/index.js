@@ -41,23 +41,23 @@ export default function Home() {
               <span className="runtime-dot" />
               <div><b>Runtime provider</b><small>GitHub Codespaces</small></div>
             </div>
-            <div className="profile"><div className="avatar">Z</div><div><b>OCodeJS Developer</b><small>GitHub connected</small></div><span className="more">···</span></div>
+            <div className="profile"><div className="avatar">Z</div><div><b>OCodeJS Developer</b><small>Provider not connected</small></div><span className="more">···</span></div>
           </div>
         </aside>
 
         <main className="main" id="overview">
           <header className="topbar">
             <div className="breadcrumb">OCODEJS <span>/</span> WORKSPACE</div>
-            <div className="top-actions"><span className="connection"><i /> GitHub integration</span><a className="icon-button" href="https://github.com/zskbot/codespaces-nextjs" target="_blank" rel="noreferrer" aria-label="Source repository">↗</a><div className="avatar small">Z</div></div>
+            <div className="top-actions"><span className="connection"><i /> Provider hand-off only</span><a className="icon-button" href="https://github.com/zskbot/codespaces-nextjs" target="_blank" rel="noreferrer" aria-label="Source repository">↗</a><div className="avatar small">Z</div></div>
           </header>
 
           <section className="welcome">
             <div>
               <div className="eyebrow"><span className="eyebrow-line" /> CLOUD DEVELOPMENT ENVIRONMENT</div>
               <h1>Your code.<br /><em>Your space.</em></h1>
-              <p className="intro">A focused cloud workspace for building, testing, and shipping software across the OCodeJS ecosystem.</p>
+              <p className="intro">A branded control surface for cloud development. Start with GitHub Codespaces hand-off while OCodeJS builds its own secure workspace control plane.</p>
               <div className="hero-actions">
-                <a className="primary-button" href="https://github.com/codespaces" target="_blank" rel="noreferrer">Open Codespaces <span>↗</span></a>
+                <a className="primary-button" href="https://github.com/codespaces" target="_blank" rel="noreferrer">Open GitHub Codespaces <span>↗</span></a>
                 <a className="secondary-button" href="https://github.com/zskbot" target="_blank" rel="noreferrer">Browse repositories</a>
               </div>
             </div>
@@ -73,8 +73,8 @@ export default function Home() {
 
           <section className="stats">
             <div><small>PLATFORM</small><b>OCodeJS Cloud IDE</b></div>
-            <div><small>WORKSPACE RUNTIME</small><b>GitHub Codespaces</b></div>
-            <div><small>ENVIRONMENT</small><b><span className="status-dot" /> Preview foundation</b></div>
+            <div><small>WORKSPACE RUNTIME</small><b>GitHub Codespaces · hand-off</b></div>
+            <div><small>ENVIRONMENT</small><b><span className="status-dot" /> UI foundation · no runtime</b></div>
           </section>
 
           <section className="section" id="projects">
